@@ -20,7 +20,7 @@ def convert(fraction):
                 fraction = input("Fraction: ")
                 pass
         except (ValueError, ZeroDivisionError):
-            continue
+            raise
 
 
 def gauge(percentage):
